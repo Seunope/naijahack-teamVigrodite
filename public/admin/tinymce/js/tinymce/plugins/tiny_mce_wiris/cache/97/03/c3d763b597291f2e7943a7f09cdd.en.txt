@@ -1,0 +1,1 @@
+{"result":{"text":"bevelled 34 over 34 space open vertical bar 45 close vertical bar space square root of 454 large blank subscript 6 superscript blank 6 end root space integral subscript 6 superscript 5 66 d 6"},"status":"ok"}

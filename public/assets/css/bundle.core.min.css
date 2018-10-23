@@ -1,0 +1,113 @@
+.circular-display {
+    border-radius: 50%;
+}
+.red1807 {
+    background: #ba141a;
+}
+.avatar-size-small {
+    width: 44px;
+    height: 44px;
+    line-height: 44px;
+    font-size: 13px;
+}
+.default-avatar-profile {
+    position: absolute;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+Inherited from a.message-user-image.block-display.circular-display.avatar-size-small
+a:visited {
+    color: #68217a;
+}
+.avatar-size-small {
+    width: 44px;
+    height: 44px;
+    line-height: 44px;
+    font-size: 13px;
+}
+
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    text-decoration: underline;
+    cursor: auto;
+}
+Inherited from div.userInfo
+.userInfo {
+    font-size: 15px;
+    min-height: 50px;
+    margin-bottom: 4px;
+    position: relative;
+    margin-top: 0;
+    z-index: 3;
+    width: 100%;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dt, dd, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    border: 0;
+    font-family: 'Segoe UI',Arial,sans-serif;
+    margin: 0;
+    padding: 0;
+    /*vertical-align: top;*/
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+}
+body {
+    background: #fff;
+    color: #333;
+    font-size: 15px;
+    line-height: 20px;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+
+.userInfo {
+    font-size: 15px;
+    min-height: 50px;
+    margin-bottom: 4px;
+    position: relative;
+    margin-top: 0;
+    z-index: 3;
+    width: 100%;
+}
+
+.profile-image-display {
+    padding-right: 10px;
+    float: left;
+    margin-top: -12px;
+}
+.block-display {
+    display: block;
+}
+.circular-display {
+    border-radius: 50%;
+}
+.message-user-image {
+    overflow: hidden;
+    position: relative;
+}
+.avatar-size-small {
+    width: 44px;
+    height: 44px;
+    line-height: 44px;
+    font-size: 13px;
+}

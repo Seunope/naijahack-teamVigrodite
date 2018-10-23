@@ -1,0 +1,1 @@
+{"result":{"text":"square root of 34 open vertical bar table row 3 5 row 3 x end table close vertical bar"},"status":"ok"}

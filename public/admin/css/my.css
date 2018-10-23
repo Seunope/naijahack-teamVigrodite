@@ -1,0 +1,143 @@
+.black-color>li>a{
+    color: #000000 !important;
+}
+.smallSpace{
+    padding-right: 20px;
+}
+.pull-center{
+    text-align: center;
+}
+.smlr{
+    width: 300px;
+}
+.button{
+    color: #333;
+    background-color: #e6e6e6;
+    border-color: #adadad !important;
+    border: thin;
+    padding: 3px 6px;
+}
+.footer-text{
+    vertical-align: bottom !important;
+}
+.table-head{
+    border-bottom: solid #4fa7ef !important;
+    border-bottom-width: 3px !important;
+}
+.pagination{font-size: large; color: #761c19;}
+.btn-margin{
+    margin-right: 15px !important;
+}
+.btn-success{
+    background-color: darkgreen;
+}
+
+.btn-danger{
+    background-color: red;
+}
+.show-paginate{
+    text-align: center;
+    margin-top: 100px;
+    font-weight: lighter;
+}
+.back-button{
+    text-align: center;
+}
+select:-webkit-autofill {
+    background-color: #f9f9f9;
+}
+.modal{
+    display: run-in !important;
+}
+.no-top-margin{
+   display: -webkit-inline-box;
+}
+.question_image{
+    max-width: 100%;
+}
+.small-content-image{
+    display: block;
+    max-width: 30%;
+}
+.medium-content-image{
+    display: block;
+    max-width: 60%;
+}
+.big-content-image{
+    max-width: 100%;
+}
+.no-border-radius{
+    border-radius: 0px;
+}
+.left-alignment{
+    /*text-align-all: left;*/
+    text-align: left;
+}
+.msgBody {
+    font-size: 15px;
+    position: relative;
+     padding-bottom: 2px;
+    line-height: 20px;
+     margin-top: 1px;
+}
+html {
+     background: none;
+     overflow-y: inherit;
+    vertical-align: baseline !important;
+}
+.helpfulAdmin{
+    background-color: midnightblue;
+    color: white;
+    border: none;
+    padding: 3px 20px;
+}
+a.list-group-item:focus, a.list-group-item:hover {
+    background-color: #006cd8 !important;
+}
+.red{
+    color: red;
+}
+.form-control{
+    border-radius: 0px;
+}
+.form-control:focus {
+    border-color: #000000;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+    box-shadow: none;
+}
+.btn{
+    border-radius:0px;
+}
+
+.litle-space{
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.big-space{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.btn-start{
+    padding-left: 0;
+}
+pre {
+    display: block;
+    padding: 9.5px;
+    margin: 0 0 10px;
+    font-size: 13px;
+    line-height: 1.42857143;
+    color: #333;
+    word-break: break-all;
+    word-wrap: break-word;
+    border: none ;
+    border-radius: 0px;
+    background-color: white;
+    overflow: visible;
+}
+.options{
+    height: 35px !important;
+}
+.text-success{
+    color: #0f723a;
+}

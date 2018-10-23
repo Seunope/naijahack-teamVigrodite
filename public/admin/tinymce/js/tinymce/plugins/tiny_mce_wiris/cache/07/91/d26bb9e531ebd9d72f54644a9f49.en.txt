@@ -1,0 +1,1 @@
+{"result":{"text":"square root of 45 space open curly brackets d f d close curly brackets"},"status":"ok"}

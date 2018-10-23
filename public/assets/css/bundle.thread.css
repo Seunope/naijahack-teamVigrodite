@@ -1,0 +1,817 @@
+.articleContent {
+  position: relative;
+  width: 700px;
+  margin-top: 10px; }
+
+.articleSidebar {
+  padding-top: 10px;
+  width: 220px; }
+
+.articleSidebarHeading {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  font-weight: lighter;
+  font-size: 20px;
+  margin-bottom: 14px; }
+
+.content-header {
+  line-height: normal;
+  padding: 0 0 8px 0;
+  vertical-align: bottom; }
+
+.content-header > span {
+  font-family: 'Segoe UI Semibold', 'Segoe UI', Arial, sans-serif;
+  font-weight: bold;
+  font-size: 20px; }
+
+.content-title {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  font-weight: lighter;
+  font-size: 34px;
+  margin-top: 26px;
+  margin-bottom: 28px;
+  vertical-align: middle;
+  line-height: 43px; }
+
+.contentDisclaimer {
+  padding-top: 25px;
+  color: #6e6e6e;
+  display: inline-block;
+  vertical-align: bottom; }
+
+.draftBar {
+  background-color: #EEEEEE;
+  padding: 10px 10px 15px 10px;
+  margin-top: 20px; }
+
+.draftTitle {
+  font-size: 24px; }
+
+.draftSubtitle {
+  font-size: 13px;
+  margin: 2px 0; }
+
+.draftButtons {
+  margin: 10px 0 0 0; }
+
+.qMeta ul {
+  display: inline;
+  margin: 0;
+  padding: 0; }
+
+.qMeta li {
+  display: inline-block; }
+
+.qMeta li:before {
+  color: #505050;
+  content: "|";
+  padding: 0 8px; }
+
+.qMeta li:first-child:before {
+  content: "";
+  padding: 0; }
+
+* + html .qMeta li {
+  display: inline;
+  line-height: normal;
+  padding: 0 4px; }
+
+
+.qSubRatingPanel {
+  position: relative;
+  margin-top: -3px; }
+
+.ratingCount {
+  display: inline-block;
+  position: relative;
+  border: none; }
+
+.ratingCount.subRatingCount {
+  font-size: 12px; }
+
+.qMeToo, .ratingArea {
+  background-color: #f2f2f2;
+  border: none;
+  display: inline-block;
+  min-height: 31px;
+  padding: 3px 12px;
+  position: relative;
+  width: 100%; }
+
+.ratingArea {
+  background-color: #0063b1; }
+
+.ratingArea.disabled {
+  background-color: #969696; }
+
+.ratingArea.subRatingArea {
+  min-height: 20px;
+  padding: 0; }
+
+
+.helpful-ptr-arrow {
+  margin-top: -5px;
+  width: 100%;
+  height: 5px; }
+
+.helpful-ptr-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.vote-count-wrapper {
+  width: 100%;
+  margin-bottom: 24px;
+  margin-top: 16px; }
+
+
+.qChild {
+  color: black; }
+
+.viewsCount {
+  display: block;
+  color: #505050;
+  font-size: 12px; }
+
+.aboutUserDetails {
+  margin-top: 14px;
+  width: 100%; }
+
+.aboutUserImageLink {
+  height: 52px;
+  width: 52px;
+  padding: 0;
+  line-height: 46px;
+  text-align: center;
+  background-color: #f2f2f2;
+  margin: 4px -2px 0 -2px; }
+
+.aboutUserImageSeparation {
+  height: 52px;
+  width: 12px; }
+
+.aboutUserImage {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 1px; }
+
+.aboutUserEditProfile {
+  margin-top: 16px; }
+
+#aboutUser {
+  display: inline-block; }
+
+.sidebarLinksList {
+  display: block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+
+.sidebarLinksList li.indicator {
+  text-align: center; }
+
+.sidebarLinksList li {
+  font-size: 13px;
+  padding-top: 14px; }
+
+.sidebarFiltersList {
+  display: block;
+  list-style-type: none;
+  margin: 0;
+  margin-top: 9px;
+  padding: 0; }
+
+.sidebarFiltersList li.indicator {
+  text-align: center; }
+
+.sidebarFiltersList li {
+  font-size: 13px;
+  padding-top: 5px; }
+
+.subFilters {
+  margin-left: 35px;
+  margin-top: 0;
+  display: none; }
+
+.subFilters li {
+  font-size: 13px;
+  padding-top: 5px; }
+
+.filterExpandButton {
+  margin-right: 5px; }
+
+#filterPath {
+  margin-top: 20px;
+  color: #6e6e6e;
+  display: none; }
+
+div.abuseHistoryDialog > div.dialogBox {
+  width: 940px; }
+
+div.abuseHistoryDialog table {
+  width: 100%;
+  border-collapse: collapse; }
+
+div.abuseHistoryDialog th, div.abuseHistoryDialog td {
+  border: 1px solid #969696;
+  padding: 4px; }
+
+div.abuseHistoryDialog td:nth-child(4) {
+  width: 40%;
+  word-wrap: break-word;
+  word-break: break-all; }
+
+.postComment {
+  display: none; }
+
+#commentNotifyMeBox,
+.reply-checkbox-container,
+.reply-button-container {
+  padding: 0 20px 0 20px; }
+
+.msgBody {
+  font-size: 15px;
+  position: relative;
+  padding-bottom: 20px;
+  line-height: 20px;
+  margin-top: 16px; }
+
+.msgBody img,
+.replyToMsg img {
+  max-width: 100%; }
+
+.messageControls {
+  padding: 0;
+   }
+
+.messageControls > li {
+  display: inline-block;
+  padding: 0;
+  position: relative; }
+
+/* User Information */
+.commentInfo, .comment {
+  margin-bottom: 20px;
+  position: relative; }
+
+.userInfo {
+  font-size: 15px;
+  min-height: 10px;
+  margin-bottom: 4px;
+  position: relative;
+  margin-top: 0;
+  z-index: 3;
+  width: 100%; }
+
+.userTags {
+  display: table-cell; }
+
+.rtl .signature span {
+  padding-left: 0;
+  padding-right: 12px;
+  border-left: none;
+  border-right: 2px solid #d2d2d2; }
+
+.userInfo .profile-image-display {
+  padding-right: 10px;
+  float: left;
+  margin-top: -12px; }
+
+.rtl .userInfo .profile-image-display {
+  padding-right: 0;
+  padding-left: 10px;
+  float: right; }
+
+/* End User Information */
+/* Reply Box */
+#postform {
+  margin: 0 0 20px 0;
+  padding-top: 8px;
+  padding-bottom: 20px;
+  background-color: #f2f2f2; }
+
+#postform .postReplyTitle,
+#postform .postCommentTitle {
+  font-size: 20px;
+  height: 36px;
+  line-height: 34px;
+  padding: 0 20px;
+  text-decoration: none; }
+
+#replayWithQuoteContainer {
+  padding: 0 20px; }
+
+.editReasonPanel {
+  padding: 0 20px;
+  display: none;
+  margin-bottom: 40px; }
+
+#postform table.k-editor {
+  width: 100%;
+  margin-top: 10px;
+  border-width: 0 !important; }
+
+.k-editor .k-editable-area {
+  border-top-width: 0 !important; }
+
+#postform .EditorContainer {
+  border-width: 0 0 2px 0; }
+
+#subscribeOnReplyGrp {
+  margin: 10px 0; }
+
+.contentWrapper .inReplyTo {
+  border: none;
+  background-color: #f6f6f6;
+  margin-bottom: 0;
+  margin-top: 3px;
+  padding: 8px 12px 10px 12px; }
+
+.replyMeta .iconsprite {
+  vertical-align: bottom; }
+
+.contentWrapper .replyToMsg {
+  display: none;
+  padding: 16px 0 0 0; }
+
+.contentWrapper .replyToMsg p, .contentWrapper .replyToMsg div {
+  padding-bottom: 5px; }
+
+.contentWrapper .replyToMsg ul {
+  padding-left: 15px;
+  /*RTL*/ }
+
+.pvt-messages-link-wrap {
+  width: 100%;
+  border-bottom: 1px solid #969696;
+  padding-top: 6px;
+  padding-bottom: 6px; }
+
+@media (max-width: 768px) {
+  .messageControls > li:before {
+    content: " ";
+    padding-right: 12px; }
+  .showmobileViewModerationtoolsMenu {
+    background-color: #f2f2f2 !important;
+    color: #0078d6 !important; }
+  .message .navbar .navbar-nav li.mobileViewModeration > ul > li.heading {
+    color: black;
+    line-height: 56px; }
+  .message .navbar .navbar-nav li.mobileViewModeration > ul > li.heading:active,
+  .message .navbar .navbar-nav li.mobileViewModeration > ul > li.heading:hover {
+    background-color: #0078d6;
+    color: white; }
+  .message .navbar .navbar-nav li.mobileViewModeration > ul > li > ul > li.heading {
+    color: black;
+    line-height: 56px; }
+  .message .navbar .navbar-nav li.mobileViewModeration > ul > li > ul > li.heading:active,
+  .message .navbar .navbar-nav li.mobileViewModeration > ul > li > ul > li.heading:hover {
+    background-color: #0078d6;
+    color: white; }
+  .message .navbar .navbar-nav li.mobileViewModeration > ul > li {
+    background-color: #eeeeee; }
+  .message .navbar .mobile-message-footer .navbar-nav li button {
+    position: relative;
+    padding: 20px 20px 20px 20px;
+    width: 100%;
+    text-align: left;
+    height: 56px; }
+  .message .navbar .mobile-message-footer .navbar-nav li button:focus {
+    text-decoration: none; }
+  .message .navbar .mobile-message-footer .navbar-nav li > ul > li > ul > li button {
+    padding-left: 32px; }
+  .message .navbar .mobile-message-footer .navbar-nav li > ul > li:active,
+  .message .navbar .mobile-message-footer .navbar-nav li > ul > li:hover {
+    background-color: #0078d6;
+    z-index: 100000;
+    text-decoration: none; }
+  .message .navbar .mobile-message-footer .navbar-nav li:last-child {
+    border-bottom: none; }
+  .message .navbar .navbar-nav li.mobileViewModeration > ul > li > ul > li {
+    background-color: #fcfcfc;
+    border-bottom-color: #d2d2d2;
+    border-bottom-style: solid;
+    border-bottom-width: 1px; }
+  .message .navbar .navbar-nav li.mobileViewBlogModeration > ul > li > ul > li:first-child {
+    border-top-width: 1px;
+    border-top-color: #d2d2d2;
+    border-top-style: solid; }
+  .mobileViewModPanel {
+    display: none; }
+  .message .navbar .mobile-message-footer .navbar-nav li > button:hover {
+    background-color: #0078d6;
+    text-decoration: none;
+    color: white; }
+  .message .navbar {
+    border: none;
+    background: white;
+    margin-bottom: 0;
+    min-height: 32px; }
+  .message .navbar .navbar-header {
+    background: none; }
+  .message .navbar .navbar-header .messageControls {
+    margin-top: 5px;
+    width: auto; }
+  .message .navbar .navbar-header .navbar-toggle {
+    padding: 0;
+    margin: 0;
+    border: 0; }
+  .message .navbar .navbar-header .navbar-toggle:focus {
+    background: #d2d2d2; }
+  .message .navbar .navbar-nav li button {
+    position: relative;
+    line-height: 20px;
+    padding: 10px 12px 10px 12px;
+    width: 100%;
+    text-align: left; }
+  .message .navbar .navbar-nav li span,
+  .message .navbar .navbar-nav li p {
+    position: relative;
+    line-height: 20px;
+    padding: 10px 12px 10px 12px;
+    width: 100%;
+    text-align: left;
+    display: inline-block; }
+  .message .navbar .navbar-nav li > ul {
+    list-style-type: none;
+    padding-left: 0; }
+  .message .navbar .navbar-nav li > ul > li {
+    padding-left: 0;
+    /*TODO:RTL*/ }
+  .message .navbar .mobile-message-footer .navbar-nav li > ul > li {
+    background-color: #f2f2f2;
+    border-bottom-color: #d2d2d2;
+    border-bottom-style: solid;
+    border-bottom-width: 0.5px; }
+  .message .navbar .navbar-nav li > ul > li:hover {
+    background-color: #505050; }
+  .message .navbar .navbar-nav li > ul > li > button:hover {
+    color: white; }
+  .message .navbar-default .navbar-nav > li > a {
+    color: #0078d7; }
+  .message .navbar .navbar-collapse {
+    border: 2px solid #d2d2d2; }
+  .message .navbar .mobile-message-footer .navbar-nav li > button {
+    color: black; }
+  .message .navbar .navbar-nav li button.disabled {
+    color: #969696; }
+  .message .navbar .mobile-message-footer .navbar-nav li button :active,
+  .message .navbar .mobile-message-footer .navbar-nav li button :hover {
+    background-color: #0078d6;
+    color: white;
+    text-decoration: none; } }
+
+.pvtConvDetails, .pvtConvDetails .msgPvtConvDetailsBtn {
+  margin-top: 12px; }
+
+#convertError .dialogBox {
+  padding-top: 10px;
+  background-color: #f2f2f2;
+  border: solid 2px #0078d7;
+  min-height: 178px; }
+
+#convertError .dialogBox .dialogTitle {
+  padding: 0 25px 0 12px; }
+
+#convertError .dialogBox .dialogTitle span {
+  display: inline-block;
+  font-size: 20px;
+  line-height: 24px; }
+
+#convertError .dialogBox .dialogBody {
+  padding: 20px 12px 30px 12px; }
+
+#convertErrorMessage {
+  font-size: 15px;
+  line-height: 20px; }
+
+#convertError .dialogBox .buttons-container {
+  padding: 0 0 20px 20px; }
+
+#convertError .dialogBox .buttons-container > button:first-child {
+  margin-left: 70%; }
+
+.accomplishments-link {
+  padding-left: 55px; }
+
+
+#HiddenTextForHtmlCleanup {
+  display: none; }
+
+#ThreadContent, .threadPreview {
+  position: relative;
+  width: 700px; }
+
+#SocialIcons {
+  padding: 10px 0; }
+
+#ThreadContent #subNav {
+  border-bottom: 0;
+  margin: 0;
+  padding: 0; }
+
+#subNav {
+  position: relative; }
+
+#ThreadContent #tab_AllReplies {
+  background: none;
+  display: inline;
+  line-height: normal; }
+
+#ThreadContent #tab_PrivateMessage {
+  background: none;
+  margin-top: 6px;
+  display: block;
+  line-height: normal; }
+
+* + html #ThreadContent #tab_AllReplies {
+  height: 1.5em; }
+
+#ThreadContent #tab_AllReplies a {
+  font-size: 20px;
+  font-weight: 600; }
+
+#ThreadSummary {
+  position: relative;
+  width: 100%; }
+
+#allReplies {
+  border: 0 solid #333333; }
+
+.contentWrapper {
+  border-bottom: 1px solid #d2d2d2;
+  position: relative;
+  padding: 0 0 0 0;
+  margin-top: 28px;
+  width: 100%; }
+
+.contentWrapper.isAbuse, tr.isAbuse {
+  border: 1px solid #e61e26;
+  padding: 20px 10px 0 10px; }
+
+#questionsummary {
+  border: 0;
+  border-bottom: 1px solid gray; }
+
+.threadStatusIcons {
+  display: inline-block;
+  margin-bottom: 0;
+  padding: 0;
+  vertical-align: bottom;
+  white-space: nowrap;
+  list-style: none; }
+
+.threadStatusIcons li {
+  display: inline-block;
+  padding: 2px;
+  vertical-align: bottom; }
+
+.threadStatusIcons li.icon_collapsed {
+  padding: 0; }
+
+.content-header > .threadStatusIcons {
+  margin-top: 0;
+  display: inline-block; }
+
+* + html .threadStatusIcons, * + html .threadStatusIcons li {
+  display: inline; }
+
+#allReplies .answerTagged .message {
+  padding-top: 0; }
+
+.messageUserImage {
+  display: none;
+  overflow: hidden;
+  position: relative;
+  width: 50px;
+  z-index: 1; }
+
+.userPanelImage {
+  display: block;
+  margin: 10px auto;
+  vertical-align: middle; }
+
+#ThreadSummary .messageUserImage, .threadPreviewSummary .messageUserImage {
+  width: 75px; }
+
+.messageType > .messageHelpful {
+  font-size: 20px;
+  height: 20px; }
+
+.messageType > .messageRecent,
+.messageType > .mostRecentCount {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  font-size: 30px;
+  height: 30px; }
+
+.messageType > .messageAnswer {
+  font-size: 20px;
+  line-height: normal;
+  font-weight: 600; }
+
+.userImageGutter {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  overflow: hidden;
+  z-index: 1; }
+
+.messageInfo {
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 0;
+  position: relative; }
+
+.message {
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 15px; }
+
+.msgContent {
+  width: 95%;
+  max-width: 100%; }
+
+.msgBody {
+  width: 100%;
+  max-width: 100%; }
+
+.threadPreviewMoreOrLess {
+  padding-top: 5px; }
+
+#threadTitle .forumTitleLink {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  width: auto; }
+
+#anonymousVote {
+  border: 2px solid #0071c6; }
+
+/*Me Too Area */
+#qMeTooBox, .ratingPanel {
+  margin-top: 10px;
+  background-color: #505050;
+  min-height: 37px;
+  position: relative;
+  z-index: 1; }
+
+.answerTagged .ratingPanel {
+  background-color: #008a00; }
+
+.socialIcon {
+  z-index: -1;
+  margin: 0 5px 0 0;
+  /*RTL*/ }
+
+.rtl .socialIcon {
+  margin-right: 0;
+  margin-left: 5px; }
+
+#meTooBox {
+  margin-bottom: 20px; }
+
+#pagerTop {
+  margin-top: -12px;
+  margin-bottom: 10px; }
+
+#pagerBottom {
+  margin-bottom: 10px;
+  padding-top: 4px; }
+
+.paging {
+  padding-top: 2px; }
+
+.isaprivatemessage, div.hasprivatemessage a, div.hasprivatemessage a:visited, .replytoprivate {
+  color: #ba141a;
+  display: inline-block; }
+
+.hasprivatemessage {
+  margin-bottom: 10px; }
+
+.hasprivatemessage .sprite {
+  position: absolute; }
+
+div.hasprivatemessage a {
+  margin: 0 0 0 30px; }
+
+#replyError {
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px; }
+
+#subscribeOnReplyGrp {
+  padding-left: 20px;
+  padding-right: 20px; }
+
+/* BEGIN DIALOG BOXES */
+.viewThreadDialogContent {
+  background-image: url(../images/warning.png);
+  background-repeat: no-repeat;
+  padding: 0 0 0 40px;
+  /*RTL*/ }
+
+#ThreadAnswers {
+  margin-top: 0;
+  width: 100%; }
+
+#EditThreadForm {
+  background-color: white;
+  margin: 6% auto;
+  position: relative;
+  width: 670px; }
+
+/* moderator tool: escalation */
+.msgEscalated {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background: #fcfc9e; }
+
+.msgBody.msgEscalated {
+  padding: 3px 10px 10px; }
+
+.msgFlags.msgEscalated {
+  display: inline-block;
+  width: 100%;
+  padding: 10px 10px 2px; }
+
+.reply-checkbox-container input, .reply-checkbox-container label {
+  vertical-align: middle; }
+
+.editorInstruction {
+  margin-bottom: 20px; }
+
+div.abuseHistoryDialog > div.dialogBox {
+  width: 940px; }
+
+div.abuseHistoryDialog table {
+  width: 100%;
+  border-collapse: collapse; }
+
+div.abuseHistoryDialog th, div.abuseHistoryDialog td {
+  border: 1px solid #969696;
+  padding: 4px; }
+
+div.abuseHistoryDialog td:nth-child(4) {
+  width: 40%;
+  word-wrap: break-word;
+  word-break: break-all; }
+
+#all-replies-tab .tabs {
+  margin-top: 28px; }
+
+#all-replies-tab {
+  margin-bottom: 8px;
+  width: 100%; }
+
+/*Responsive overrides for all form factors*/
+#questioncontainer .messageType, .answerTagged .messageType, #questionsummary .messageType {
+  padding: 0 0 8px 0;
+  line-height: normal;
+  width: 100%;
+  max-width: 100%; }
+
+#ThreadSummary .message, .threadPreviewSummary .message, .message {
+  padding-left: 0;
+  width: 100%; }
+
+#ThreadContent {
+  width: 100%; }
+
+.message .messageType .messageAnswer {
+  vertical-align: bottom; }
+
+.messageType {
+  margin-bottom: 20px; }
+
+.messageType > span {
+  font-size: 20px;
+  font-weight: 600; }
+
+.messageType > span > img {
+  vertical-align: top;
+  margin-top: 4px;
+  margin-right: 6px; }
+
+.rtl .messageType > span > img {
+  margin-right: 0;
+  margin-left: 6px; }
+
+.conversationInfo {
+  position: relative;
+  margin-top: 0;
+  z-index: 0;
+  width: 100%;
+  margin-bottom: -3px; }
+
+.convSeparator {
+  border-bottom: 1px solid #d2d2d2; }
+
+.abuseTitle {
+  margin-bottom: 5px; }
+
+.abuseDescription {
+  margin-bottom: 15px; }
+
+#pagingControl {
+  margin-top: 23px; }
+
+img#prevPage2 {
+  margin-left: -15px; }
