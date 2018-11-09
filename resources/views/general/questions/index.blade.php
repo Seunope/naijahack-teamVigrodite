@@ -29,6 +29,7 @@
             $("#question_text").html(question_text);
             $("#question_form").submit();
         }
+        
     </script>
 @endsection
 

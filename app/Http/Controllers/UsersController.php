@@ -42,7 +42,7 @@ class UsersController extends Controller
      */
     public function index()
     {
-        $users          =   User::all()->random(5);
+        $users          =   User::all();//->random(5);
         $schools        =   School::all();
         if (Auth::check() && isset(Auth::user()->level)){
             $courses = $this->course->showCourseById(Auth::user()->level->slug);
